@@ -1,0 +1,123 @@
+.img-produto{
+    width: 100%;
+}
+.botao_salvar{
+    background: rgb(255, 79, 9);
+    background:radial-gradient(circle,rgb(241, 122, 43)0%,rgb(231, 98, 9)100%);
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+}
+
+.botao_novo{
+    background: rgb(255, 198, 9);
+    background:radial-gradient(circle,rgb(255, 198, 9)0%,rgb(238, 235, 41)100%);
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+}
+
+.desabilitado{
+    background-color: rgb(231, 214, 214);
+}
+
+
+
+/* HOMEPAGE */
+
+
+
+body{
+    margin: 0;
+    font-family: "Roboto",sans-serif;
+}
+
+.figura{
+    width: 40%;
+    height: 100vh;
+    float: left;
+    background-color: #ffff;
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+.formulario{
+    width: 60%;
+    height: 100vh;
+    float: left;
+    background-color: #ffbb2f;
+    padding: 40px;
+    box-sizing: border-box;
+}
+.ilustra{
+    text-align: center;
+    margin-top: 10%;
+}
+.ilustra img{
+    max-width: 800px;
+    width: 100%;
+}
+
+.formulario h2{
+    color: #ffff;
+    font-size: 32px;
+    margin-bottom: 0;
+}
+.formulario p{
+    color: #ffff;
+    font-size: 18px;
+    margin-top: 0;
+}
+.menu-form{
+    padding: 0;
+}
+.menu-form li{
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: solid 2px #ffff;
+    padding: 5px 15px;
+}
+
+.menu-form li a{
+    text-decoration: none;
+    color: #ffff;
+}
+.formulario form{
+    max-width: 300px;
+}
+.formulario input{
+    padding: 8px;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+}
+form .bt-login{
+    background-color: #ffff;
+    display: inline-block;
+    color:#3d704c;
+    width: auto;
+    padding: 10px 15px;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.container-form{
+    max-width: 280px;
+    margin: 10% auto 0 auto;
+}
+.cd{
+    text-decoration: none;
+    color: #ffff;
+}
+
+/* MEDIA QUERY */
+
+@media (max-width: 1010px){
+    .figura , .formulario{
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+}
